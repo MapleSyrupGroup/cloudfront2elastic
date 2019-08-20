@@ -1,5 +1,5 @@
 # cloudfront2elastic
-A lambda script for migrating Cloudfront logs from S3 to an elastic cluster.
+An AWS Lambda script for migrating Cloudfront logs from S3 to an Elastic cluster.
 
 ## Purpose
 We wanted a way to easily analyse our Cloudfront logs and decided to utilise an Elastic cluster to do this.
