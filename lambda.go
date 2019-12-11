@@ -113,7 +113,7 @@ func HandleRequest(ctx context.Context, event events.S3Event) {
 }
 
 func parseLogLine(logLineParts []string) (*LogLine, error) {
-	if len(logLineParts) != 26 {
+	if len(logLineParts) != 33 {
 		return nil, fmt.Errorf("log line import failed: row length incorrect expected 26 got :%s", strconv.FormatInt(int64(len(logLineParts)), 10))
 	}
 	var parsedLine LogLine
